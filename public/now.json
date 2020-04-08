@@ -1,0 +1,16 @@
+{
+    "version": 2,
+    "alias" : "nat-bookmarks-client-app",
+    "name": "bookmarks-client",
+    "routes": [
+        {
+            "src": "^/static/(.*)",
+            "dest": "/static/$1"
+          },
+          {
+            "src": ".*",
+            "dest": "/index.html"
+          }
+    ]
+  }
+  
